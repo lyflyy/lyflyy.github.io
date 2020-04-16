@@ -35,10 +35,7 @@ search: true
 # Night mode
 nightMode: true
 
-# Comments 评论功能
-comments:
-  disqus: false
-  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
@@ -56,7 +53,7 @@ postPatterns: 'circuitBoard'
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   weibo: '//weibo.com/lyflyy'
-  github: '//github.com/lyfll'
+  github: '//github.com/lyflyy'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
@@ -87,3 +84,8 @@ plugins: [jekyll-paginate]
 #comments:
 #  disqus: true
 #  disqus_url: 'https://your-disqus-username.disqus.com/embed.js'
+
+# Comments 评论功能
+comments:
+  disqus: true
+  disqus_url: 'https://lyflyy.disqus.com/embed.js'
